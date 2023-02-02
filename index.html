@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Walidator formularza</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Montserrat:400,700&display=swap&subset=latin-ext"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bg"></div>
+        <img src="/iconmonstr-lock-31-120.png" alt="" class="bg__img--lock">
+        <img src="/dots.png" alt="" class="bg__img--dots">
+    <div class="wrapper">
+        <form>
+            <h1>Zarejestruj się!</h1>
+            <div class="form-box">
+                <label for="username">Nazwa użytkownika:</label>
+                <input type="text" id="username" placeholder="Podaj nazwę użytkownika">
+                <p class="error-text">error</p>
+            </div>
+            <div class="form-box">
+                <label for="password">Hasło:</label>
+                <input type="password" id="password" placeholder="Podaj hasło">
+                <p class="error-text">error</p>
+            </div>
+            <div class="form-box">
+                <label for="password2">Powtórz hasło:</label>
+                <input type="password" id="password2" placeholder="Powtórz hasło">
+                <p class="error-text">error</p>
+            </div>
+            <div class="form-box">
+                <label for="email">Adres e-mail:</label>
+                <input type="email" id="email" placeholder="Podaj adres mailowy">
+                <p class="error-text">error</p>
+            </div>
+            <div class="control-buttons">
+                <button class="clear">Wyczyść</button>
+                <button class="send">Wyślij</button>
+            </div>
+            <div class="popup">
+                <p>Formularz został poprawnie wysłany!</p>
+                <button class="close">Zamknij</button>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
